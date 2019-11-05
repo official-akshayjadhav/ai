@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0" encoding = "UTF-8">
+   <category>
+      <pattern> HELLO ALICE </pattern>
+      
+      <template>
+         Hello User
+      </template>
+      
+   </category>
+   <category>
+      <pattern> HELLO Yogesh </pattern>
+      
+      <template>
+         Hello my name is not yogesh it's alice
+      </template>
+      
+   </category>
+   
+   <category>
+      <pattern>What is Mutual Fund</pattern>
+      <template>
+         A mutual fund is a professionally managed investment fund that pools money from many investors to purchase securities.
+      </template>
+      
+   </category>
+   <category>
+      <pattern>What is Stocks</pattern>
+      <template>
+         A stock is a general term used to describe the ownership certificates of any company.
+      </template>
+      
+   </category>
+   
+   <category>
+  
+	   <pattern><iset words="define, explain, expore, meaning"/> *</pattern>
+	   <template><srai>What is <star/></srai></template>
+   
+   </category>
+   
+</aiml>

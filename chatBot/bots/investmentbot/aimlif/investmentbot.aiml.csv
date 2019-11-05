@@ -1,0 +1,5 @@
+0,HELLO ALICE,*,*,Hello User,investmentbot.aiml
+0,HELLO YOGESH,*,*,Hello my name is not yogesh it's alice,investmentbot.aiml
+0,WHAT IS MUTUAL FUND,*,*,A mutual fund is a professionally managed investment fund that pools money from many investors to purchase securities.,investmentbot.aiml
+0,WHAT IS STOCKS,*,*,A stock is a general term used to describe the ownership certificates of any company.,investmentbot.aiml
+0,<ISET WORDS="DEFINE, EXPLAIN, EXPORE, MEANING"/> *,*,*,<srai>What is <star/></srai>,investmentbot.aiml
